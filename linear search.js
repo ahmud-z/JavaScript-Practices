@@ -5,6 +5,7 @@ var num = 10
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] == num) {
         flag = 1;
+        break;
     }
 }
 

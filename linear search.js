@@ -10,9 +10,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 if (flag == 1) {
-
     console.log("Value Found");
 } else {
-
     console.log("Value not found");
 }

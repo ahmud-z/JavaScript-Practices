@@ -16,12 +16,10 @@ function findOdd(numbersArray) {
     }
 }
 
-
 function main() {
     let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     findEven(arr);
     findOdd(arr);
 }
-
 
 main();

@@ -7,7 +7,7 @@ function findFactorial(num) {
 }
 
 function main(){
-    let num = prompt('Enter a new number: ');
+    let num = prompt('Enter a number: ');
     console.log(num + ' factorial is: '+ findFactorial(num))
 }
 

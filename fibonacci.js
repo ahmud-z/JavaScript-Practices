@@ -20,7 +20,7 @@ function findFibo(num) {
 }
 
 function main() {
-    let num = prompt('Enter amount of fibonacci you want to print: ')
+    let num = prompt('Enter a number: ');
     findFibo(num);
 }
 

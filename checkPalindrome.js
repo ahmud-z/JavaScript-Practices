@@ -4,9 +4,7 @@ function checkPalindrome(num) {
 
     while (temp != 0) {
         let remainder = temp % 10;
-
         reverseNum = (reverseNum * 10) + remainder;
-
         temp = Math.floor(temp / 10);
     }
 
@@ -18,7 +16,9 @@ function checkPalindrome(num) {
 }
 
 function main() {
-    checkPalindrome(105);
+    let num = prompt('Enter a number: ');
+    checkPalindrome(num);
 }
 
 main();
+

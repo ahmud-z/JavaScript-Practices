@@ -10,9 +10,7 @@ function bubbleSort(arr) {
     }
 }
 
-
 function main() {
-
     let arr = [1, 54, 12, 3, 6, 5, 2, 0];
     bubbleSort(arr);
 
@@ -22,5 +20,5 @@ function main() {
         console.log(arr[i])
     }
 }
-
 main();
+
